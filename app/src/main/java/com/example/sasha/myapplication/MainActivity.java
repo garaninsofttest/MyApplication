@@ -23,6 +23,8 @@ public class MainActivity extends Activity implements NumberPicker.OnValueChange
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Integer a = 15;
+        Log.d("Test tag", a.toString());
         tv = (TextView) findViewById(R.id.textView1);
         Button b = (Button) findViewById(R.id.button11);
         b.setOnClickListener(new View.OnClickListener()
