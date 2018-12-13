@@ -19,6 +19,7 @@ public class MainActivity extends Activity implements NumberPicker.OnValueChange
     static Dialog d;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //Hello from GitHub
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
